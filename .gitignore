@@ -1,0 +1,13 @@
+.idea
+.vscode
+.env
+.env.example
+/vendor
+/node_modules
+/public/build
+.phpunit.result.cache
+docker-compose.yaml
+Dockerfile
+/php-config
+/maria_db_data
+composer.phar
