@@ -22,5 +22,7 @@ $app->get('/', function (Request $req, Response $resp): Response {
 $app->get('/books', BooksController::class . ':index');
 // get one book by id
 $app->get('/books/{id}', BooksController::class . ':show');
+// save a book
+$app->post('/books', BooksController::class . ':save');
 
 $app->run();
