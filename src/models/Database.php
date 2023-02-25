@@ -4,8 +4,6 @@ namespace App\models;
 
 use PDO;
 
-require __DIR__.'/../../config/config_db.php';
-
 class Database
 {
     private $pdo;
